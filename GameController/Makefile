@@ -1,5 +1,3 @@
-TARGET := iphone:clang:latest:13.0
-
 include $(THEOS)/makefiles/common.mk
 
 THEOS_LIBRARY_PATH = $(THEOS_PROJECT_DIR)/Resources/Frameworks
