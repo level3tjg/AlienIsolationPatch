@@ -1,18 +1,13 @@
 # Alien Isolation Patch
 
-Patch Alien Isolation iOS app to work on any iOS 13+ device (Without keyboard & mouse support)
-
----
-
-**Xcode command line tools are required for the ipa patching script so only builds on macOS *(for now)***
-
----
+Patch Alien Isolation iOS app to work on any iOS 13+ device (Without keyboard & mouse support / cloud saves)
 
 ## Requirements
 
-1. [theos](https://github.com/theos/theos)
-2. [theos-jailed](https://github.com/kabiroberai/theos-jailed)
-3. Decrypted Alien Isolation IPA
+- [theos](https://github.com/theos/theos)
+- [theos-jailed](https://github.com/kabiroberai/theos-jailed)
+- iOS 13.7 sdk placed in $THEOS/sdks
+- Decrypted Alien Isolation IPA
 
 ## Building
 
