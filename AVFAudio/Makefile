@@ -7,6 +7,6 @@ FRAMEWORK_NAME = AVFAudio
 AVFAudio_FILES = AVFAudio.m
 AVFAudio_PUBLIC_HEADERS = AVFAudio.h
 AVFAudio_CFLAGS = -fobjc-arc
-AVFAudio_LDFLAGS = -current_version 1 -compatibility_version 1 -Xlinker -reexport_library $(SYSROOT)/System/Library/Frameworks/AVFoundation.framework/Frameworks/AVFAudio.framework/AVFAudio.tbd
+AVFAudio_LDFLAGS = -current_version 1 -compatibility_version 1 -Xlinker -reexport_library ../lib/AVFoundation.framework/Frameworks/AVFAudio.framework/AVFAudio.tbd
 
 include $(THEOS_MAKE_PATH)/framework.mk

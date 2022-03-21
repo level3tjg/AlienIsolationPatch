@@ -12,7 +12,7 @@ TWEAK_NAME = Isolation
 
 $(TWEAK_NAME)_FILES = Tweak.x fishhook/fishhook.c
 $(TWEAK_NAME)_LOGOS_DEFAULT_GENERATOR = internal
-$(TWEAK_NAME)_CFLAGS = -fobjc-arc -DRLOG_IP_ADDRESS=\"$(shell ipconfig getifaddr en0)\"
+$(TWEAK_NAME)_CFLAGS = -fobjc-arc
 $(TWEAK_NAME)_IPA = Alien_Isolation.ipa
 _CODESIGN_IPA = 0
 
