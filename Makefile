@@ -2,8 +2,6 @@ MODULES = jailed
 
 export TARGET = iphone:clang:latest:13.0
 
-export SYSROOT = $(THEOS)/sdks/iPhoneOS13.7.sdk
-
 include $(THEOS)/makefiles/common.mk
 
 export ARCHS = arm64
